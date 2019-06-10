@@ -1,0 +1,178 @@
+body  {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+
+	.heading {
+		width: 100%;
+		height: 130px;
+		box-shadow: 0px 3px 5px lightgrey;
+		position: fixed;
+		z-index: 1;
+		background-color: #fff;
+		transition: 0.3s;
+
+		.ham-but {
+			height: 19px;
+			width: 25px;
+			margin: 55.5px 0 0 30px;
+			float: left;
+			transition: 0.3s;
+
+			.ham-line {
+				width: 100%;
+				height: 3px;
+				background-color: #000;
+				transition: 0.1s;
+				position: relative;
+			}
+			.second-line {
+				top: 5px;
+			}
+			.third-line {
+				top: 10px;
+			}
+			.change1 {
+				top: 8px;
+				transform: rotate(45deg);
+			}
+			.change2 {
+				transform: rotate(-45deg);
+				top: 5px;
+			}
+		}
+		.logo {
+			width: 110px;
+			margin-top: 10px;
+			transition: 0.3s;
+		}
+		
+
+
+	}
+	.nav {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			background-color: #fff;
+			border-top: 3px solid #C41E49; 
+			margin-top: 137px;
+			overflow-x: hidden;
+			transition: 0.1s;
+			width: 0px;
+			z-index: 1;
+
+			.nav-list {
+				margin-top: 50px;
+			}
+
+			a {
+				font: 400 30px georgia;
+				color: #545051;
+			}
+			li {
+				margin: 20px 0 0 50px;
+			}
+
+			.nav-devide {
+				width: 80%;
+				height: 3px;
+				background-color: #C41E49;
+				margin: 25px auto;
+			}
+
+	}
+
+	.main {
+		width: 100%;
+		height: 200px;
+		background-color: #fff;
+		top: 140px;
+		position: relative;
+
+		.home-sec {
+			.landing-img {
+				width: 100%;
+				height: 180px;
+				background-image: url(../img/landingImg2.jpg);
+				-webkit-background-size: cover;
+				background-size: cover;
+				background-position: center;
+
+				.land-background {
+					position: relative;
+					background-color: #fff;
+					width: 80%;
+					height: 70%;
+					opacity: 0.8;
+					top: 15%;
+					left: 10%;
+
+					h2 {
+						font: 400 20px georgia;
+						color: #545051;
+						top: 20px;
+						position: relative;
+						text-align: center;
+					}
+					h1 {
+						font: 600 30px 'Dancing Script', cursive;
+						color: #C41E49;
+						top: 40px;
+						position: relative;
+						text-align: center;
+						text-shadow: 1px 1px 2px #000000;
+					}
+				}
+			}
+			.home-sec-2 {
+				width: 90%;
+				margin: 50px 0 50px 5%;
+				background-color: #fff;
+
+
+				.dobrodosli {
+					font: 400 30px 'Dancing Script', cursive;
+					color: #545051;
+					text-align: center;
+					text-shadow: 1px 1px 2px #000000;
+				}
+				.first-mainsection-devide {
+					display: none;
+				}
+				.second-mainsection-devide {
+					width: 80%;
+					height: 3px;
+					background-color: #C41E49;
+					margin: 5px auto;
+				}
+				.comp-name {
+					font: 400 30px georgia;
+					color: #545051;
+					text-align: center;
+					margin-top: 50px;
+					text-shadow: 2px 2px 4px #000000;
+				}
+				h3 {
+					font: italic 400 18px georgia;
+					color: #545051;
+					text-align: center;
+					margin-top: 2px;
+				}
+				h4 {
+					font: italic 600 15px georgia;
+					color: #2C2829;
+					text-align: center;
+					margin-top: 40px;
+				}
+				h5 {
+					font: 400 15px georgia;
+					color: #545051;
+					text-align: center;
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+
+}
