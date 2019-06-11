@@ -39,7 +39,7 @@ window.onscroll = () => {
 		    heading.style.height = "90px";
 		    logo.style.width = "70px";
 		    hamBut.style.marginTop = "35.5px"
-		    logo.style.marginLeft = cliWid / 2 - 85 + "px";
+		    logo.style.marginLeft = cliWid / 2 - 90 + "px";
 		    nav.style.marginTop = "97px";
 		  } else {
 		  	heading.style.height = "130px";
