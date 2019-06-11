@@ -41,12 +41,14 @@ window.onscroll = () => {
 		    hamBut.style.marginTop = "35.5px"
 		    logo.style.marginLeft = cliWid / 2 - 90 + "px";
 		    nav.style.marginTop = "97px";
+		    logo.src = "img/blommblack1.png"
 		  } else {
 		  	heading.style.height = "130px";
 		    logo.style.width = "110px";
 		    hamBut.style.marginTop = "55.5px"
 		    logo.style.marginLeft = cliWid / 2 - 110 + "px";
 		    nav.style.marginTop = "137px";
+		    logo.src = "img/blommwhite1.png"
 		  }
 		}
 }
