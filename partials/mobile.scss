@@ -188,11 +188,12 @@ body  {
 					.white-background {
 						position: relative;
 						background-color: #fff;
-						width: 80%;
+						width: 0%;
 						height: 70%;
 						opacity: 0.8;
 						top: 27px;
-						left: 10%;
+						margin: 0 auto;
+						overflow-x: hidden;
 
 						h1 {
 							font: 600 30px 'Dancing Script', cursive;
@@ -200,6 +201,7 @@ body  {
 							text-align: center;
 							position: relative;
 							top: 40%;
+							opacity: 0;
 						}
 					}
 				}

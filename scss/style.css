@@ -145,17 +145,19 @@ body {
         body .main .home-sec-main .home-sec-2 .main-content .white-background {
           position: relative;
           background-color: #fff;
-          width: 80%;
+          width: 0%;
           height: 70%;
           opacity: 0.8;
           top: 27px;
-          left: 10%; }
+          margin: 0 auto;
+          overflow-x: hidden; }
           body .main .home-sec-main .home-sec-2 .main-content .white-background h1 {
             font: 600 30px 'Dancing Script', cursive;
             color: #545051;
             text-align: center;
             position: relative;
-            top: 40%; }
+            top: 40%;
+            opacity: 0; }
       body .main .home-sec-main .home-sec-2 .main-buketi {
         background-image: url(../img/buketi1.jpg); }
       body .main .home-sec-main .home-sec-2 .main-vencanja {
