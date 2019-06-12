@@ -196,12 +196,13 @@ body  {
 						overflow-x: hidden;
 
 						h1 {
-							font: 600 30px 'Dancing Script', cursive;
+							font: 600 40px 'Dancing Script', cursive;
 							color: #545051;
 							text-align: center;
 							position: relative;
 							top: 40%;
 							opacity: 0;
+							text-shadow: 2px 2px 4px #b29600;
 						}
 					}
 				}
@@ -214,13 +215,17 @@ body  {
 				.main-boxevi {
 					background-image: url(../img/boxevi1.jpg);
 				}
+				.main-rodjendani {
+					background-image: url(../img/rodjendani1.jpg);
+				}
 			}
 			.home-sec-3 {
 				width: 100%;
 				margin: 50px 0;
+				background-color: #fff;
 
 				.van {
-					margin: 50px 0 0 -110px;
+					margin: 50px 0 0 -35%;
 				 	width: 30%;
 				}
 				.free-del {
@@ -229,6 +234,58 @@ body  {
 					text-align: center;
 					width: 80%;
 					margin: 40px 0 0 10%;
+				}
+			}
+			.home-sec-4 {
+				width: 100%;
+				margin: 100px 0;
+				background-color: #fff;
+
+				.galerija-home {
+					width: 80%;
+					margin: 150px 10%;
+
+					.home-gal-img {
+						width: 100px;
+					}
+					.img1, .img2,.img4 {
+						float: left;
+					}
+					.img3, .img5,.img6 {
+						float: right;
+					}
+					.img1 {
+						transform: rotate(40deg);
+						margin: 0px 0 0 0;
+					}
+					.img2 {
+						transform: rotate(10deg);
+						margin: 0px 0 0 0;
+					}
+					.img3 {
+						transform: rotate(-30deg);
+						margin: 0px 0 0 0;
+					}
+					.img4 {
+						transform: rotate(-20deg);
+						margin: -80px 0 0 0;
+					}
+					.img5 {
+						transform: rotate(20deg);
+						margin: -80px 0 0 0;
+					}
+					.img6 {
+						transform: rotate(-30deg);
+						margin: -80px 0 0 0;
+					}
+					.galerija-home-naslov {
+						font: 600 40px 'Dancing Script', cursive;
+						color: #545051;
+						text-align: center;
+						text-shadow: 2px 2px 4px #b29600;
+						opacity: 0;
+					}
+
 				}
 			}
 		}
