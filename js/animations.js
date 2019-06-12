@@ -1,9 +1,11 @@
 var whiteBackground = document.getElementsByClassName("white-background");
-
+var van = document.getElementById("van");
+var freeDel = document.getElementById("free-del");
 
 document.addEventListener('scroll', animate1);
 document.addEventListener('scroll', animate2);
 document.addEventListener('scroll', animate3);
+document.addEventListener('scroll', vanRide);
 
 function inView(element) {
 
@@ -38,6 +40,12 @@ function animate3() {
 	if (inView(whiteBackground[2])) {
 		whiteBackground[2].classList.add("white-background-animation");
 		whiteBackground[2].children[0].classList.add("main-content-animation");
+		}
+}
+
+function vanRide() {
+	if (inView(freeDel)) {
+		van.classList.add("van-ride");
 		}
 }
 

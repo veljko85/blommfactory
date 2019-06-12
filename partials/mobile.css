@@ -163,5 +163,17 @@ body {
         background-image: url(../img/svadbe1.jpg); }
       body .main .home-sec-main .home-sec-2 .main-boxevi {
         background-image: url(../img/boxevi1.jpg); }
+    body .main .home-sec-main .home-sec-3 {
+      width: 100%;
+      margin: 50px 0; }
+      body .main .home-sec-main .home-sec-3 .van {
+        margin: 50px 0 0 -110px;
+        width: 30%; }
+      body .main .home-sec-main .home-sec-3 .free-del {
+        font: italic 600 15px georgia;
+        color: #2C2829;
+        text-align: center;
+        width: 80%;
+        margin: 40px 0 0 10%; }
 
 /*# sourceMappingURL=mobile.css.map */
