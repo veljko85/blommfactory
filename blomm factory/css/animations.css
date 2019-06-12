@@ -1,0 +1,27 @@
+.white-background-animation {
+	animation: animate 1s ease-in-out forwards;
+}
+
+.main-content-animation {
+	animation: animate2 2s ease-in-out forwards;
+}
+
+
+@keyframes animate2 {
+	20% { opacity: 0; }
+	100% { opacity: 1; }
+}
+						
+@keyframes animate {
+	from { width: 0%; }
+	to { width: 80%;}
+}
+
+.van-ride {
+	animation: vanRide 1s ease-in-out forwards;
+}
+
+@keyframes vanRide{
+	from { margin-left: -31%; }
+	to { margin-left: 35%; }
+}
