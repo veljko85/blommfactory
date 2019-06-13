@@ -55,29 +55,3 @@ window.onscroll = () => {
 		  }
 		}
 }
-
-document.addEventListener('scroll', animate);
-
-function inView(element) {
-
-	var elementHeight = element.clientHeight;
-	var windowHeight = window.innerHeight;
-	var scrollY = window.scrollY || window.pageYOffset;
-	var scrollPosition = scrollY + windowHeight;
-	var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
-			  
-	if (scrollPosition > elementPosition) {
-		return true;
-	} else {
-		return false;
-	}
-}
-
-function animate() {
-	if (inView(whiteBackground[0])) {
-		whiteBackground[0].classList.add("animate");
-		}
-}
-
-console.log(inView(whiteBackground[0]));
-//whiteBackground[0].style.backgroundColor = "red";

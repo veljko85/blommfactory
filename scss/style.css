@@ -178,7 +178,8 @@ body {
       background-color: #fff; }
       body .main .home-sec-main .home-sec-3 .van {
         margin: 0 0 0 -35%;
-        width: 30%; }
+        width: 30%;
+        transform: rotate(-20deg); }
       body .main .home-sec-main .home-sec-3 .free-del {
         font: italic 600 15px georgia;
         color: #2C2829;
@@ -238,5 +239,26 @@ body {
       text-align: center;
       width: 90%;
       margin: 40px 0 0 5%; }
+    body footer .foot-info {
+      width: 100%;
+      background-color: #fff;
+      margin-top: 50px; }
+      body footer .foot-info .foot-info-details {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: #C41E49;
+        margin: 20px auto; }
+        body footer .foot-info .foot-info-details .foot-icons {
+          width: 50px;
+          height: 0;
+          margin: 75px 25px; }
+      body footer .foot-info h4 {
+        font: 600 22px georgia;
+        text-align: center;
+        margin-top: 20px; }
+      body footer .foot-info p {
+        font: 400 17px georgia;
+        margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

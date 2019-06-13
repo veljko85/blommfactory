@@ -2,15 +2,15 @@
 	animation: animate 1s ease-in-out forwards;
 }
 
-.main-content-animation {
-	animation: animate2 2s ease-in-out forwards;
-}
-
-
 @keyframes animate2 {
 	20% { opacity: 0; }
 	100% { opacity: 1; }
 }
+
+.main-content-animation {
+	animation: animate2 2s ease-in-out forwards;
+}
+
 						
 @keyframes animate {
 	from { width: 0%; }
@@ -22,8 +22,19 @@
 }
 
 @keyframes vanRide{
-	from { margin-left: -35%; }
-	to { margin-left: 35%; }
+
+	80% { margin-left: 35%; }
+	90% { 
+		margin-left: 35%;
+		transform: rotate(0deg); }
+	95% {
+		margin-left: 35%;
+		transform: rotate(-5deg);
+	}
+	100% {
+		margin-left: 35%;
+		transform: rotate(0deg);
+	}
 }
 
 .img-in-side {
@@ -33,4 +44,23 @@
 @keyframes imgInSide {
 
 	to { margin-top: 20px; }
+}
+
+.icons-show {
+	animation: iconsShow 1s ease-in-out forwards;
+}
+
+@keyframes iconsShow {
+
+	75% { height: 50px;
+		margin-top: 25px;
+	}
+	90% {
+		height: 40px;
+		margin-top: 15px;
+	}
+	100% {
+		height: 50px;
+		margin-top: 25px;
+	}
 }

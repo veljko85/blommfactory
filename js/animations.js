@@ -4,15 +4,17 @@ var freeDel = document.getElementById("free-del");
 var galHomeImg = document.getElementsByClassName("home-gal-img");
 var galHome = document.getElementById("galerija-home");
 var galHomeNas = document.getElementById("galerija-home-naslov");
+var footIcons = document.getElementsByClassName("foot-icons");
 
 document.addEventListener('scroll', animate1);
 document.addEventListener('scroll', animate2);
 document.addEventListener('scroll', animate3);
 document.addEventListener('scroll', animate4);
 document.addEventListener('scroll', vanRide);
-document.addEventListener('scroll', galImgMove1);
-document.addEventListener('scroll', galImgMove2);
-document.addEventListener('scroll', galImgMove3);
+document.addEventListener('scroll', galImgMove);
+document.addEventListener('scroll', phoneIconShow);
+document.addEventListener('scroll', locationIconShow);
+document.addEventListener('scroll', emailIconShow);
 
 function inView(element) {
 
@@ -63,22 +65,29 @@ function vanRide() {
 		}
 }
 
-function galImgMove1() {
-	if (inView(galHome)) {
+function galImgMove() {
+	if (inView(galHomeImg[4])) {
 		galHomeImg[3].classList.add("img-in-side");
+		galHomeImg[4].classList.add("img-in-side");
+		galHomeImg[5].classList.add("img-in-side");
 		galHomeNas.style.opacity = "1";
 		}
 }
 
-function galImgMove2() {
-	if (inView(galHome)) {
-		galHomeImg[4].classList.add("img-in-side");
-		}
+function phoneIconShow() {
+	if (inView(footIcons[0])) {
+		footIcons[0].classList.add("icons-show");
+	}
+}
+function locationIconShow() {
+	if (inView(footIcons[1])) {
+		footIcons[1].classList.add("icons-show");
+	}
+}
+function emailIconShow() {
+	if (inView(footIcons[2])) {
+		footIcons[2].classList.add("icons-show");
+	}
 }
 
-function galImgMove3() {
-	if (inView(galHome)) {
-		galHomeImg[5].classList.add("img-in-side");
-		}
-}
 
