@@ -242,13 +242,14 @@ body {
     body footer .foot-info {
       width: 100%;
       background-color: #fff;
-      margin-top: 50px; }
+      margin: 50px 0; }
       body footer .foot-info .foot-info-details {
         width: 100px;
         height: 100px;
         border-radius: 100%;
         background-color: #C41E49;
-        margin: 20px auto; }
+        margin: 20px auto;
+        box-shadow: 3px 3px 5px black; }
         body footer .foot-info .foot-info-details .foot-icons {
           width: 50px;
           height: 0;
@@ -260,5 +261,33 @@ body {
       body footer .foot-info p {
         font: 400 17px georgia;
         margin-top: 20px; }
+    body footer .social {
+      width: 100%;
+      background-color: #fff;
+      margin: 50px 0; }
+      body footer .social .logo-bottom {
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 10px auto; }
+      body footer .social h4 {
+        font: 600 18px georgia;
+        text-align: center;
+        margin-top: 20px; }
+      body footer .social .social-div {
+        width: 69px;
+        margin: 20px auto; }
+        body footer .social .social-div .social-icons {
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          background-color: #C41E49;
+          display: inline-block;
+          box-shadow: 3px 3px 5px black; }
+          body footer .social .social-div .social-icons img {
+            width: 15px;
+            margin: 7.5px; }
+        body footer .social .social-div .insta {
+          margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
