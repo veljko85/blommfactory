@@ -64,3 +64,32 @@
 		margin-top: 25px;
 	}
 }
+
+.landing-img-zoom {
+	animation: landImgZoom 8s linear forwards;
+}
+
+@keyframes landImgZoom {
+	to { transform: scale(1.1); }
+}
+
+.landing-img-text-zoomOut {
+	animation: landImgZoomOut 8s linear forwards;
+}
+
+@keyframes landImgZoomOut {
+	to { transform: scale(0.9); }
+}
+
+.landing-img-text {
+	animation: landImgText 0.5s linear forwards;
+}
+
+@keyframes landImgText {
+	50% { opacity: 0.5; 
+		  left: 5%;
+	}
+	100% { opacity: 1; 
+		   left: 10%;
+	}
+}

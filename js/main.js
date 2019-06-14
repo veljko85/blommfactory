@@ -6,8 +6,10 @@ var secLin = document.getElementById("second-line");
 var thiLin = document.getElementById("third-line");
 var nav = document.getElementById("nav");
 var heading = document.getElementById("heading");
-var whiteBackground = document.getElementsByClassName("white-background");
+var landImgCont = document.getElementById("landing-img-container");
 
+
+landImgCont.style.height = window.innerHeight - 130 + "px";
 
 
 if (document.body.clientWidth < 768){

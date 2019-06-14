@@ -70,34 +70,47 @@ body {
     top: 140px;
     margin-bottom: 140px;
     position: relative; }
-    body .main .home-sec-main .landing-img {
+    body .main .home-sec-main .landing-img-container {
       width: 100%;
-      height: 180px;
-      background-image: url(../img/landingImg2.jpg);
-      -webkit-background-size: cover;
-      background-size: cover;
-      background-position: center; }
-      body .main .home-sec-main .landing-img .land-background {
-        position: relative;
-        background-color: #fff;
-        width: 80%;
-        height: 70%;
-        opacity: 0.8;
-        top: 15%;
-        left: 10%; }
-        body .main .home-sec-main .landing-img .land-background h2 {
-          font: 400 20px georgia;
-          color: #545051;
-          top: 20px;
+      overflow-x: hidden;
+      overflow-y: hidden; }
+      body .main .home-sec-main .landing-img-container .landing-img {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/landingImg3.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        transition: 2s; }
+        body .main .home-sec-main .landing-img-container .landing-img .land-background {
           position: relative;
-          text-align: center; }
-        body .main .home-sec-main .landing-img .land-background h1 {
-          font: 600 30px 'Dancing Script', cursive;
-          color: #C41E49;
-          top: 40px;
-          position: relative;
-          text-align: center;
-          text-shadow: 1px 1px 2px #b29600; }
+          width: 100%;
+          height: 30%;
+          top: 35%;
+          /*background-color: #fff;
+          opacity: 0.8;*/ }
+          body .main .home-sec-main .landing-img-container .landing-img .land-background h2 {
+            font: 400 30px georgia;
+            color: #fff;
+            top: 40px;
+            position: relative;
+            text-shadow: 2px 2px 2px #000;
+            left: 50%;
+            opacity: 0; }
+          body .main .home-sec-main .landing-img-container .landing-img .land-background h1 {
+            font: 600 50px 'Dancing Script', cursive;
+            color: #000;
+            position: relative;
+            text-shadow: 1px 1px 2px #b29600;
+            left: 50%;
+            opacity: 0; }
+          body .main .home-sec-main .landing-img-container .landing-img .land-background h3 {
+            font: 600 35px 'Dancing Script', cursive;
+            color: #000;
+            position: relative;
+            text-shadow: 1px 1px 2px #b29600;
+            left: 50%;
+            opacity: 0; }
     body .main .home-sec-main .home-sec-1 {
       width: 90%;
       margin: 50px 0 50px 5%;
@@ -241,13 +254,14 @@ body {
     body footer .foot-info {
       width: 100%;
       background-color: #fff;
-      margin-top: 50px; }
+      margin: 50px 0; }
       body footer .foot-info .foot-info-details {
         width: 100px;
         height: 100px;
         border-radius: 100%;
         background-color: #C41E49;
-        margin: 20px auto; }
+        margin: 20px auto;
+        box-shadow: 3px 3px 5px black; }
         body footer .foot-info .foot-info-details .foot-icons {
           width: 50px;
           height: 0;
@@ -259,5 +273,33 @@ body {
       body footer .foot-info p {
         font: 400 17px georgia;
         margin-top: 20px; }
+    body footer .social {
+      width: 100%;
+      background-color: #fff;
+      margin: 50px 0; }
+      body footer .social .logo-bottom {
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 10px auto; }
+      body footer .social h4 {
+        font: 600 18px georgia;
+        text-align: center;
+        margin-top: 20px; }
+      body footer .social .social-div {
+        width: 75px;
+        margin: 20px auto; }
+        body footer .social .social-div .social-icons {
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          background-color: #C41E49;
+          display: inline-block;
+          box-shadow: 3px 3px 5px black; }
+          body footer .social .social-div .social-icons img {
+            width: 15px;
+            margin: 7.5px; }
+        body footer .social .social-div .insta {
+          margin-left: 7px; }
 
 /*# sourceMappingURL=mobile.css.map */

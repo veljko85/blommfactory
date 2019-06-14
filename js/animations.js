@@ -5,6 +5,7 @@ var galHomeImg = document.getElementsByClassName("home-gal-img");
 var galHome = document.getElementById("galerija-home");
 var galHomeNas = document.getElementById("galerija-home-naslov");
 var footIcons = document.getElementsByClassName("foot-icons");
+var landImg = document.getElementById("landing-img");
 
 document.addEventListener('scroll', animate1);
 document.addEventListener('scroll', animate2);
@@ -15,6 +16,13 @@ document.addEventListener('scroll', galImgMove);
 document.addEventListener('scroll', phoneIconShow);
 document.addEventListener('scroll', locationIconShow);
 document.addEventListener('scroll', emailIconShow);
+
+landImg.classList.add("landing-img-zoom");
+landImg.children[0].children[0].classList.add("landing-img-text-zoomOut");
+landImg.children[0].children[1].classList.add("landing-img-text-zoomOut");
+landImg.children[0].children[0].classList.add("landing-img-text");
+setInterval('landImg.children[0].children[1].classList.add("landing-img-text");',300);
+setInterval('landImg.children[0].children[2].classList.add("landing-img-text");',600);
 
 function inView(element) {
 
@@ -89,5 +97,7 @@ function emailIconShow() {
 		footIcons[2].classList.add("icons-show");
 	}
 }
+
+
 
 
